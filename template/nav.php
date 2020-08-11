@@ -84,11 +84,10 @@
 </nav>
 <div class="fixed-top bg-white shadow d-block d-xl-none">
     <div class="row text-center">
-        <a href="/" class="nav-link col active"><i class="far fa-newspaper text-primary"></i></a>
-        <a href="#" class="nav-link col"><i class="fas fa-user-friends text-primary"></i></a>
-        <a href="#" class="nav-link col"><i class="far fa-comment-alt text-primary"></i></a>
-        <a href="#" class="nav-link col"><i class="far fa-bell text-primary"></i></a>
-        <a href="#" class="nav-link col" id="sidebar"><i class="fas fa-bars text-primary"></i></a>
+        <a href="/" class="nav-link fs-25 col active"><i class="far fa-newspaper text-primary"></i></a>
+        <a href="#" class="nav-link fs-25 col"><i class="far fa-comment-alt text-primary"></i></a>
+        <a href="#" class="nav-link fs-25 col"><i class="far fa-bell text-primary"></i></a>
+        <a href="#" class="nav-link fs-25 col" id="sidebar"><i class="fas fa-bars text-primary"></i></a>
     </div>
 </div>
 <!-- sidebar-menu -->

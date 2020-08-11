@@ -206,18 +206,19 @@ class lava {
                         closed.classList.add('bg-white', 'p-2')
                         L('.parent-chat').attr('style', 'z-index: -1;display: none;')
                         L('.card.chat div.card-footer').attr('style', 'display: none')
-                        document.querySelector('.profile-chat').style.display = 'none'
+                        L('.profile-chat').removeClass('d-block')
+                        L('.profile-chat').addClass('d-none')
                     })
                     closed.addEventListener('click', event => {
                         L($data.listChatTab.query).attr('style', `margin-left: -100%;opacity: 0;visibility: hidden`)
                         L($data.listChatTab.query).removeClass('position-sticky')
                         value.style.marginLeft = '0'
                         closed.style.marginLeft = '-100%'
-                        closed.style.visibility = 'hidden'
+                        closed.style.visibility = 'visible'
                         closed.classList.remove('bg-white', 'p-2')
                         L('.parent-chat').attr('style', 'z-index: 1;display: block;')
                         L('.card.chat div.card-footer').attr('style', 'display: block')
-                        document.querySelector('.profile-chat').style.display = 'block'
+                        L('.profile-chat').addClass('d-block')
                     })
                 }
             })
@@ -251,6 +252,64 @@ class lava {
             function: (e, value) => {
                 e.preventDefault()
             }
+        })
+        L('.read-notification-all').on('click', e => {
+            Swal.fire({
+                title: 'Are you sure?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, read all!'
+            })
+            .then((result) => {
+                if (result.value) {
+                    Swal.fire(
+                      'Deleted!',
+                      'Your notification has been read.',
+                      'success'
+                    )
+                }
+            })
+        })
+        L('.remove-notification-all').on('click', e => {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to recover this notification!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete all!'
+            })
+            .then((result) => {
+                if (result.value) {
+                    Swal.fire(
+                      'Deleted!',
+                      'Your notification has been deleted.',
+                      'success'
+                    )
+                }
+            })
+        })
+        L('.archive-notification-all').on('click', e => {
+            Swal.fire({
+                title: 'Are you sure?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, archived all!'
+            })
+            .then((result) => {
+                if (result.value) {
+                    Swal.fire(
+                      'Deleted!',
+                      'Your notification has been archived.',
+                      'success'
+                    )
+                }
+            })
         })
     }
     indexPage($data){

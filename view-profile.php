@@ -25,14 +25,13 @@
 		.cover{
   			max-height: 300px;
 		}
-		.modal-comment-show-post{
+		/*.modal-comment-show-post{
   			max-height: 500px;
-		}
+		}*/
 		.latest-photo.scroll{
   			max-height: 240px;
 		}
 		.list-like-post{
-			max-height: 40px;
     		width: 100%;
 		}
   		/*xs*/
@@ -420,17 +419,17 @@
   			  	  	  	</button>
   			  	  	</div>
   			  	  	<div class="modal-body">
-  			  	  		<div class="row">
+  			  	  		<div class="row mb-4">
   			  	  			<div class="col">
   			  	  				<ul class="list-unstyled">
-  			  	  					<li class="list-like-post">
+  			  	  					<li class="list-like-post mt-1">
   			  	  						<div class="row">
   			  	  							<div class="col-2">
-  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="img-fluid" />
+  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="img-fluid rounded-circle" style="max-height: 60px;" />
   			  	  							</div>
   			  	  							<div class="col-10 p-0">
-  			  	  								<p class="mt-2">
-  			  	  									<a href="/ferdiansyah" class="text-decoration-none">Ferdiansyah</a>
+  			  	  								<p class="mt-3">
+  			  	  									<a href="/ferdiansyah" class="text-decoration-none text-dark">Ferdiansyah</a>
   			  	  								</p>
   			  	  							</div>
   			  	  						</div>
@@ -443,7 +442,7 @@
   			</div>
 		</div>
 		<div class="modal fade" id="modal-comment-post" tabindex="-1" aria-labelledby="modal-comment-post-Label" aria-hidden="true">
-  			<div class="modal-dialog modal-fullscreen">
+  			<div class="modal-dialog modal-xl modal-dialog-centered">
   			  	<div class="modal-content">
   			  	  	<div class="modal-header">
   			  	  	  	<h5 class="modal-title" id="modal-comment-post-Label">View</h5>
@@ -453,24 +452,153 @@
   			  	  	</div>
   			  	  	<div class="modal-body">
   			  	  		<div class="row">
-  			  	  			<div class="col-12 col-sm-6 fs-15">
-  			  	  				<div class="position-sticky default overflow-y-auto p-1 modal-comment-show-post">
-	  			  	  				Content in here
+  			  	  			<div class="col-12 col-sm-12 fs-15">
+  			  	  				<div class="position-sticky default p-1 text-dark">
+	  			  	  				<p>Content in here</p>
 									<div class="col-12">
-										<img src="./src/media/kelly-repreza-vdsDBby6Tn4-unsplash.jp" alt="example" class="img-fluid" />
+										<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="img-fluid" />
 									</div>
   			  	  				</div>
   			  	  			</div>
-  			  	  			<div class="col-12 col-sm-6 p-1">
-  			  	  				<div class="position-sticky default overflow-y-auto modal-comment-show-post">
-	  			  	  				<h5>Comment</h5>
-	  			  	  				<form>
-	  			  	  					<textarea class="form-control mb-1" rows="5"></textarea>
-	  			  	  				</form>
+	  			  	  		<!-- <div class="dropdown-divider"></div> -->
+  			  	  			<div class="col-12 col-sm-12 p-1">
+  			  	  				<div class="position-sticky p-3 default shadow-sm" style="max-height: 750px;overflow-y: auto;">
 	  			  	  				<ul class="list-unstyled">
+	  			  	  					<li class="mb-2">
+	  			  	  						<div class="row">
+	  			  	  							<div class="col-2">
+	  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid" />
+	  			  	  							</div>
+	  			  	  							<div class="col-10">
+	  			  	  								<p class="h5 text-dark">Ferdiansyah</p>
+	  			  	  								<p class="mb-2 text-dark">this comment</p>
+	  			  	  								<p class="mb-1 fs-12 text-dark">
+	  			  	  									At 18:00 11/08/2020
+	  			  	  								</p>
+	  			  	  								<p>
+	  			  	  									<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-thumbs-up"></i> 2
+			  			  	  							</button>
+			  			  	  							<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-comment"></i> 2
+			  			  	  							</button>
+	  			  	  								</p>
+	  			  	  							</div>
+	  			  	  						</div>
+	  			  	  					</li>
+	  			  	  					<li class="mb-2">
+	  			  	  						<div class="row">
+	  			  	  							<div class="col-2">
+	  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid" />
+	  			  	  							</div>
+	  			  	  							<div class="col-10">
+	  			  	  								<p class="h5 text-dark">Ferdiansyah</p>
+	  			  	  								<p class="mb-2 text-dark">this comment</p>
+	  			  	  								<p class="mb-1 fs-12 text-dark">
+	  			  	  									At 18:00 11/08/2020
+	  			  	  								</p>
+	  			  	  								<p>
+	  			  	  									<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-thumbs-up"></i> 2
+			  			  	  							</button>
+			  			  	  							<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-comment"></i> 2
+			  			  	  							</button>
+	  			  	  								</p>
+	  			  	  							</div>
+	  			  	  						</div>
+	  			  	  					</li>
+	  			  	  					<li class="mb-2">
+	  			  	  						<div class="row">
+	  			  	  							<div class="col-2">
+	  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid" />
+	  			  	  							</div>
+	  			  	  							<div class="col-10">
+	  			  	  								<p class="h5 text-dark">Ferdiansyah</p>
+	  			  	  								<p class="mb-2 text-dark">this comment</p>
+	  			  	  								<p class="mb-1 fs-12 text-dark">
+	  			  	  									At 18:00 11/08/2020
+	  			  	  								</p>
+	  			  	  								<p>
+	  			  	  									<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-thumbs-up"></i> 2
+			  			  	  							</button>
+			  			  	  							<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-comment"></i> 2
+			  			  	  							</button>
+	  			  	  								</p>
+	  			  	  							</div>
+	  			  	  						</div>
+	  			  	  					</li>
+	  			  	  					<li class="mb-2">
+	  			  	  						<div class="row">
+	  			  	  							<div class="col-2">
+	  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid" />
+	  			  	  							</div>
+	  			  	  							<div class="col-10">
+	  			  	  								<p class="h5 text-dark">Ferdiansyah</p>
+	  			  	  								<p class="mb-2 text-dark">this comment</p>
+	  			  	  								<p class="mb-1 fs-12 text-dark">
+	  			  	  									At 18:00 11/08/2020
+	  			  	  								</p>
+	  			  	  								<p>
+	  			  	  									<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-thumbs-up"></i> 2
+			  			  	  							</button>
+			  			  	  							<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-comment"></i> 2
+			  			  	  							</button>
+	  			  	  								</p>
+	  			  	  							</div>
+	  			  	  						</div>
+	  			  	  					</li>
+	  			  	  					<li class="mb-2">
+	  			  	  						<div class="row">
+	  			  	  							<div class="col-2">
+	  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid" />
+	  			  	  							</div>
+	  			  	  							<div class="col-10">
+	  			  	  								<p class="h5 text-dark">Ferdiansyah</p>
+	  			  	  								<p class="mb-2 text-dark">this comment</p>
+	  			  	  								<p class="mb-1 fs-12 text-dark">
+	  			  	  									At 18:00 11/08/2020
+	  			  	  								</p>
+	  			  	  								<p>
+	  			  	  									<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-thumbs-up"></i> 2
+			  			  	  							</button>
+			  			  	  							<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-comment"></i> 2
+			  			  	  							</button>
+	  			  	  								</p>
+	  			  	  							</div>
+	  			  	  						</div>
+	  			  	  					</li>
+	  			  	  					<li class="mb-2">
+	  			  	  						<div class="row">
+	  			  	  							<div class="col-2">
+	  			  	  								<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid" />
+	  			  	  							</div>
+	  			  	  							<div class="col-10">
+	  			  	  								<p class="h5 text-dark">Ferdiansyah</p>
+	  			  	  								<p class="mb-2 text-dark">this comment</p>
+	  			  	  								<p class="mb-1 fs-12 text-dark">
+	  			  	  									At 18:00 11/08/2020
+	  			  	  								</p>
+	  			  	  								<p>
+	  			  	  									<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-thumbs-up"></i> 2
+			  			  	  							</button>
+			  			  	  							<button class="btn btn-light border-0">
+			  			  	  								<i class="far fa-comment"></i> 2
+			  			  	  							</button>
+	  			  	  								</p>
+	  			  	  							</div>
+	  			  	  						</div>
+	  			  	  					</li>
 	  			  	  					<?php 
 	  			  	  					for ($i=0; $i < 10; $i++) { ?>
-		  			  	  					<li>
+		  			  	  					<!-- <li>
 		  			  	  						<div class="row">
 			  			  	  						<div class="col-2 col-sm-2">
 			  			  	  							<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle" width="50px" />
@@ -490,12 +618,26 @@
 			  			  	  						</div>
 		  			  	  							
 		  			  	  						</div>
-		  			  	  					</li>
+		  			  	  					</li> -->
 	  			  	  					<?php }
 	  			  	  					?>
 	  			  	  				</ul>
   			  	  					
   			  	  				</div>
+  			  	  			</div>
+  			  	  		</div>
+  			  	  	</div>
+  			  	  	<div class="modal-footer border-0">
+  			  	  		<div class="row">
+  			  	  			<div class="col-10">
+  			  	  				<form>
+	  			  	  				<textarea class="form-control mb-1" rows="3" placeholder="Type here to comment" style="max-height: 300px;"></textarea>
+	  			  	  			</form>
+  			  	  			</div>
+  			  	  			<div class="col-2">
+  			  	  				<button class="btn btn-primary w-100 h-100">
+  			  	  					<span class="material-icons fs-30">send</span>
+  			  	  				</button>
   			  	  			</div>
   			  	  		</div>
   			  	  	</div>

@@ -61,11 +61,7 @@
             bottom: 0;
             padding: 28px;
         }
-        .story-view textarea{
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
+        .story-textarea{
             opacity: 1;
             padding: 20px;
             background: var(--bs-white);
@@ -272,11 +268,25 @@
                             </div>
                         </div>
                     </div>
+                    <footer class="card bg-white mt-2 border-0 shadow-sm animate__animated animate__fadeInUp">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 text-center text-sm-left">
+                                    <i class="far fa-copyright fs-20"></i>
+                                    <span class="ml-2 font-weight-bold">Copyright reserved 2020</span>
+                                </div>
+                                <div class="col-12 col-sm-6 text-center text-sm-right">Design by 
+                                    <a target="blank" href="https://github.com/ferdiansyah0611" class="font-weight-bold text-decoration-none">
+                                        <span>Ferdiansyah</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
                 <div class="mt-3 col-12 col-md-3 d-none d-xl-block">
                     <div class="row">
                     <?php include './template/sideright.php';?>
-                        
                     </div>
                 </div>
             </div>
@@ -294,14 +304,22 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col story-view">
-                            <img src="./src/media/kelly-repreza-vdsDBby6Tn4-unsplash.jpg" alt="example" class="img-fluid pb-5" />
-                            <form>
-                                <textarea type="text" name="comment" placeholder="Type here to comment" class="form-control mt-2 w-75"></textarea>
-                                <button type="submit" class="btn btn-primary w-25">
-                                    <span class="material-icons">send</span>
-                                </button>
-                            </form>
+                        <div class="col-12 pb-2">
+                            <img src="./src/media/kelly-repreza-vdsDBby6Tn4-unsplash.jpg" alt="example" class="img-fluid" />
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 col-sm-10">
+                                    <form>
+                                        <textarea type="text" name="comment" placeholder="Type here to comment" class="form-control story-textarea"></textarea>
+                                    </form>
+                                </div>
+                                <div class="col-12 col-sm-2">
+                                    <button type="submit" class="btn btn-primary w-100 h-100">
+                                        <span class="material-icons">send</span>
+                                    </button>
+                                </div>   
+                            </div>
                         </div>
                     </div>
                 </div>

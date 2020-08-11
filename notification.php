@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <style type="text/css">
+        .read{
+            background-color: #00000014;
+        }
         .notification li:hover{
             background-color: #00000014;
             transition: 0.3s all;
@@ -78,13 +81,13 @@
                 <div class="card-footer bg-white">
                     <div class="row">
                         <div class="col">
-                            <button type="button" class="w-100 fs-13 btn btn-primary">Read all</button>
+                            <button type="button" class="w-100 fs-13 btn btn-primary read-notification-all">Read all</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="w-100 fs-13 btn btn-danger">Remove all</button>
+                            <button type="button" class="w-100 fs-13 btn btn-danger remove-notification-all">Remove all</button>
                         </div>
                         <div class="col">
-                            <button type="button" class="w-100 fs-13 btn btn-light">Archive all</button>
+                            <button type="button" class="w-100 fs-13 btn btn-light archive-notification-all">Archive all</button>
                         </div>
                     </div>
                 </div>
@@ -96,6 +99,7 @@
     <script src="./src/vendor/bootstrap-v5/js/bootstrap.min.js"></script>
     <script src="./src/vendor/lavosted/main.js"></script>
     <script src="https://cdn.ckeditor.com/ckeditor5/21.0.0/balloon/ckeditor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="./src/js/app.js" type="text/javascript"></script>
     <script type="text/javascript">
         lavaInstance.notificationPage({

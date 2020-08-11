@@ -307,7 +307,7 @@
 	        			</div>
 	        			<div class="card-footer bg-white text-light">
 	        				<div class="row">
-								<div id="editor" class="col-12 col-sm-10" style="max-height: 94px">Message..</div>
+								<div id="editor" class="col-12 col-sm-10 text-dark" style="max-height: 94px">Message..</div>
 	        					<div class="col-12 col-sm-2 mt-2 mt-sm-0">
 	        						<div class="row">
 	        							<div class="col-12">
@@ -316,7 +316,7 @@
 		  										<label class="form-file-label" for="customFile">
 		    										<span class="form-file-button w-100">
 		    											<span class="material-icons">attachment</span>
-		    											<span class="position-absolute">Attach file</span>
+		    											<span class="position-absolute">Attach</span>
 													</span>
 		  										</label>
 											</div>
