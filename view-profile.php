@@ -25,14 +25,17 @@
 		.cover{
   			max-height: 300px;
 		}
-		/*.modal-comment-show-post{
-  			max-height: 500px;
-		}*/
 		.latest-photo.scroll{
   			max-height: 240px;
 		}
 		.list-like-post{
     		width: 100%;
+		}
+		.mh-300px{
+			max-height: 300px;
+		}
+		.mh-750px{
+			max-height: 750px;
 		}
   		/*xs*/
   		@media screen and (min-width: 0px) and (max-width: 576px){
@@ -401,7 +404,7 @@
 	    </div>
 	    <!-- modal -->
 	    <div class="modal fade" id="modal-view-photo">
-	    	<div class="modal-dialog modal-lg" role="document">
+	    	<div class="modal-dialog modal-sm modal-dialog-centered" role="document">
 	    		<div class="modal-content">
 	    			<div class="modal-body">
 	    				<img src="./src/media/noah-austin-8dgFesiqvPI-unsplash.jpg" alt="example" class="img-fluid" />
@@ -442,7 +445,7 @@
   			</div>
 		</div>
 		<div class="modal fade" id="modal-comment-post" tabindex="-1" aria-labelledby="modal-comment-post-Label" aria-hidden="true">
-  			<div class="modal-dialog modal-xl modal-dialog-centered">
+  			<div class="modal-dialog modal-lg modal-dialog-centered">
   			  	<div class="modal-content">
   			  	  	<div class="modal-header">
   			  	  	  	<h5 class="modal-title" id="modal-comment-post-Label">View</h5>
@@ -460,9 +463,8 @@
 									</div>
   			  	  				</div>
   			  	  			</div>
-	  			  	  		<!-- <div class="dropdown-divider"></div> -->
   			  	  			<div class="col-12 col-sm-12 p-1">
-  			  	  				<div class="position-sticky p-3 default shadow-sm" style="max-height: 750px;overflow-y: auto;">
+  			  	  				<div class="position-sticky p-3 default shadow-sm overflow-y-auto mh-750px">
 	  			  	  				<ul class="list-unstyled">
 	  			  	  					<li class="mb-2">
 	  			  	  						<div class="row">
@@ -596,33 +598,7 @@
 	  			  	  							</div>
 	  			  	  						</div>
 	  			  	  					</li>
-	  			  	  					<?php 
-	  			  	  					for ($i=0; $i < 10; $i++) { ?>
-		  			  	  					<!-- <li>
-		  			  	  						<div class="row">
-			  			  	  						<div class="col-2 col-sm-2">
-			  			  	  							<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle" width="50px" />
-			  			  	  						</div>
-			  			  	  						<div class="col-10 col-sm-10 mt-5 mt-sm-0" style="margin-left: -50px;">
-			  			  	  							<a href="/ferdiansyah" class="mb-1 font-weight-bold text-dark text-decoration-none">Ferdiansyah</a>
-			  			  	  							<span class="float-right fs-12">12 jam yang lalu</span>
-			  			  	  							<p>This comment</p>
-			  			  	  							<p>
-			  			  	  								<button class="btn btn-light border-0">
-			  			  	  									<i class="far fa-thumbs-up"></i> 2
-			  			  	  								</button>
-			  			  	  								<button class="btn btn-light border-0">
-			  			  	  									<i class="far fa-comment"></i> 2
-			  			  	  								</button>
-			  			  	  							</p>
-			  			  	  						</div>
-		  			  	  							
-		  			  	  						</div>
-		  			  	  					</li> -->
-	  			  	  					<?php }
-	  			  	  					?>
 	  			  	  				</ul>
-  			  	  					
   			  	  				</div>
   			  	  			</div>
   			  	  		</div>
@@ -631,7 +607,7 @@
   			  	  		<div class="row">
   			  	  			<div class="col-10">
   			  	  				<form>
-	  			  	  				<textarea class="form-control mb-1" rows="3" placeholder="Type here to comment" style="max-height: 300px;"></textarea>
+	  			  	  				<textarea class="form-control mb-1 mh-300px" rows="3" placeholder="Type here to comment"></textarea>
 	  			  	  			</form>
   			  	  			</div>
   			  	  			<div class="col-2">
@@ -645,7 +621,7 @@
   			</div>
 		</div>
 		<div class="modal fade" id="modal-share-post" tabindex="-1" aria-labelledby="modal-share-post-Label" aria-hidden="true">
-  			<div class="modal-dialog">
+  			<div class="modal-dialog modal-dialog-centered">
   			  	<div class="modal-content">
   			  	  	<div class="modal-header">
   			  	  	  	<h5 class="modal-title" id="modal-share-post-Label">Share to</h5>

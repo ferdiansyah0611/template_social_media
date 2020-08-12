@@ -23,11 +23,11 @@
 						</div>
 						<div class="mt-3">
 							<label for="password">New Password</label>
-							<input type="password" name="password" class="form-control" placeholder="New Password" aria-label="password" minlength="8" maxlength="20" autocomplete="off" required>
+							<input type="password" name="password" class="form-control" placeholder="New Password" aria-label="password" minlength="8" maxlength="20" autocomplete="off" required />
 						</div>
 						<div class="mt-3">
 							<label for="verified-password">New Password Verification</label>
-							<input type="password" name="password-confirmed" class="form-control" placeholder="New Verified Password" aria-label="password-confirmed" minlength="8" maxlength="20" autocomplete="off" required>
+							<input type="password" name="password-confirmed" class="form-control" placeholder="New Verified Password" aria-label="password-confirmed" minlength="8" maxlength="20" autocomplete="off" required />
 						</div>
 						<button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
 					</form>

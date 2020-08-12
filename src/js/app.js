@@ -265,7 +265,7 @@ class lava {
             .then((result) => {
                 if (result.value) {
                     Swal.fire(
-                      'Deleted!',
+                      'Readed!',
                       'Your notification has been read.',
                       'success'
                     )
@@ -280,13 +280,13 @@ class lava {
                 showCancelButton: true,
                 confirmButtonColor: '#3085d6',
                 cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes, delete all!'
+                confirmButtonText: 'Yes, remove all!'
             })
             .then((result) => {
                 if (result.value) {
                     Swal.fire(
-                      'Deleted!',
-                      'Your notification has been deleted.',
+                      'Removed!',
+                      'Your notification has been remove.',
                       'success'
                     )
                 }
@@ -304,7 +304,7 @@ class lava {
             .then((result) => {
                 if (result.value) {
                     Swal.fire(
-                      'Deleted!',
+                      'Archived!',
                       'Your notification has been archived.',
                       'success'
                     )
@@ -343,3 +343,4 @@ lavaInstance.actionCloseSidebar()
 lavaInstance.stickyScroll({
     query: '.position-sticky.scroll'
 })
+L('.menu-overflow').attr('style', `height: auto;max-height: ${window.innerHeight}px`)

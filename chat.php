@@ -28,8 +28,43 @@
     	.maxH-28em{
     		max-height: 25em;
     	}
+    	.ml-min-160px{
+    		margin-left: -160px;
+    	}
+    	.right-17{
+    		right: 17px;
+    	}
+    	.top-17{
+    		top: 17px
+    	}
+    	.top-4n5-em{
+    		margin-top: 4.5em;
+    	}
+    	.pd-10{
+    		padding-top: 10px;
+    	}
+    	.mh-94px{
+    		max-height: 94px;
+    	}
     	.bg-gray{
     		background-color: var(--bs-gray);
+    	}
+    	#clickMenuTab{
+    		z-index: 9999;
+    		border-bottom-right-radius: 90%;
+    		border-top-right-radius: 90%;
+    		top: 45%;
+    		left: 0;
+    		transition: 1s all;
+    	}
+    	#closeMenuTab{
+    		margin-left: -100%;
+    		z-index: 9999;
+    		border-bottom-right-radius: 90%;
+    		border-top-right-radius: 90%;
+    		top: 45%;
+    		left: 0;
+    		transition: 1s all;
     	}
     	@media screen and (min-width: 0px) and (max-width: 576px){
     		input[name="search"]{
@@ -62,7 +97,7 @@
 	<div id="app">
 	<?php include './template/nav.php';?>
 		<!-- list profile right click -->
-		<div class="dropdown-menu mt-3 shadow border-0 listnav position-fixed" aria-labelledby="dropdown_right" style="transition: all 0.2s ease 0s;">
+		<div class="dropdown-menu mt-3 shadow border-0 listnav position-fixed transition-02s" aria-labelledby="dropdown_right">
             <li>
 	            <a class="dropdown-item" href="#">
 	            	<span class="material-icons">person</span>
@@ -83,7 +118,7 @@
             </li>
         </div>
         <!-- chat message right click -->
-		<div class="dropdown-menu mt-3 shadow border-0 chatmenume position-fixed" aria-labelledby="dropdown_right" style="transition: all 0.2s ease 0s;">
+		<div class="dropdown-menu mt-3 shadow border-0 chatmenume position-fixed transition-02s" aria-labelledby="dropdown_right">
             <li>
 	            <a class="dropdown-item" href="#">
 	            	<span class="material-icons">person</span>
@@ -104,7 +139,7 @@
             </li>
         </div>
         <!-- chat message right click -->
-		<div class="dropdown-menu mt-3 shadow border-0 chatmenufriends position-fixed" aria-labelledby="dropdown_right" style="transition: all 0.2s ease 0s;">
+		<div class="dropdown-menu mt-3 shadow border-0 chatmenufriends position-fixed transition-02s" aria-labelledby="dropdown_right">
             <li>
 	            <a class="dropdown-item" href="#">
 	            	<span class="material-icons">person</span>
@@ -125,10 +160,10 @@
             </li>
         </div>
 		<div class="pl-3 pr-3 mt-70px">
-			<div id="clickMenuTab" class="position-fixed shadow bg-light p-3 pointer d-block d-sm-none" style="z-index: 9999;border-bottom-right-radius: 90%;border-top-right-radius: 90%;top: 45%;left: 0;transition: 1s all;">
+			<div id="clickMenuTab" class="position-fixed shadow bg-light p-3 pointer d-block d-sm-none">
 				<span class="material-icons text-primary">people</span>
 			</div>
-			<div id="closeMenuTab" class="position-fixed shadow p-3 pointer" style="margin-left: -100%;z-index: 9999;border-bottom-right-radius: 90%;border-top-right-radius: 90%;top: 45%;left: 0;transition: 1s all;">
+			<div id="closeMenuTab" class="position-fixed shadow p-3 pointer">
 				<span class="material-icons">close</span>
 			</div>
 	        <div class="row">
@@ -146,11 +181,11 @@
 		        						<div class="col">
 		        							<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" class="rounded-circle float-left" width="50px" height="40px" />
 		        							<span class="ml-3 float-left mt-2 text-dark pointer">Ferdiansyah</span>
-		        							<div class="dropdown position-absolute" style="top: 0;right: 0;">
+		        							<div class="dropdown position-absolute top-0 right-0">
 		        								<a class="dropdown-toggle after-none" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" style="margin-right: 20px;font-size: 37px;">
 		        									<span class="material-icons">more_vert</span>
 		        								</a>
-  												<ul class="dropdown-menu shadow border-0 mt-3" aria-labelledby="dropdownMenuLink" style="margin-left: -160px">
+  												<ul class="dropdown-menu shadow border-0 mt-3 ml-min-160px" aria-labelledby="dropdownMenuLink">
   												  <li>
 											            <a class="dropdown-item" href="#">
 											            	<span class="material-icons">person</span>
@@ -179,14 +214,14 @@
 				        		<ul class="nav nav-tabs d-block border-0 p-0" id="tabChat" role="tablist">
 			  						<li class="nav-item" role="presentation">
 			  						  	<a class="nav-link text-truncate text-dark active" id="friends-1-tab" data-toggle="tab" href="#friends-1" role="tab" aria-controls="friends-1" aria-selected="true">
-			  						  		<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid col-2">
+			  						  		<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid col-2" />
 			  						  		<span>Friends 1</span>
-			  						  		<span class="badge bg-info text-white position-absolute" style="right: 17px;top: 17px">3</span>
+			  						  		<span class="badge bg-info text-white position-absolute right-17 top-17">3</span>
 			  						  	</a>
 			  						</li>
 			  						<li class="nav-item" role="presentation">
 			  						  	<a class="nav-link text-truncate text-dark" id="friends-2-tab" data-toggle="tab" href="#friends-2" role="tab" aria-controls="friends-2" aria-selected="false">
-			  						  		<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid col-2">
+			  						  		<img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle img-fluid col-2" />
 			  						  		<span>Friends 2</span>
 			  						  	</a>
 			  						</li>
@@ -261,7 +296,7 @@
 	        				<div class="position-sticky default overflow-y-auto col-12 col-sm-9 col-xl-9 col-lg-9 col-md-9 float-left pl-1 maxH-28em parent-chat bg-white bg-gradient">
 								<div class="tab-content col-12" id="tabChatContent">
 								  	<div class="tab-pane fade show active" id="friends-1" role="tabpanel" aria-labelledby="friends-1-tab">
-								  		<div class="container mt-sm-3" style="margin-top: 4.5em;">
+								  		<div class="container mt-sm-3 top-4n5-em">
 								  			<div class="row">
 								  				<div class="col-12">
 								  					<div class="float-right">
@@ -307,7 +342,7 @@
 	        			</div>
 	        			<div class="card-footer bg-white text-light">
 	        				<div class="row">
-								<div id="editor" class="col-12 col-sm-10 text-dark" style="max-height: 94px">Message..</div>
+								<div id="editor" class="col-12 col-sm-10 text-dark mh-94px">Message..</div>
 	        					<div class="col-12 col-sm-2 mt-2 mt-sm-0">
 	        						<div class="row">
 	        							<div class="col-12">
@@ -323,7 +358,7 @@
 	        								
 	        							</div>
 	        							<div class="col mt-2">
-			        						<button type="button" class="btn-sm btn-primary w-100" style="padding-top: 10px;">
+			        						<button type="button" class="btn-sm btn-primary w-100 pd-10">
 			        							<span class="material-icons">send</span>
 			        						</button>
 			        					</div>

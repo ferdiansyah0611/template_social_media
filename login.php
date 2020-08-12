@@ -16,13 +16,19 @@
 				<div class="card-body">
 					<h5 class="text-center font-weight-bold mb-4">Login to Social Media</h5>
 					<form>
-						<input type="text" name="name" class="form-control mt-2" placeholder="Name" aria-label="username" minlength="3" maxlength="20" required>
-						<input type="password" name="password" class="form-control mt-2" placeholder="Password" aria-label="password" minlength="8" maxlength="20" autocomplete="off" required>
+						<input type="text" name="name" class="form-control mt-2" placeholder="Name" aria-label="username" minlength="3" maxlength="20" required />
+						<input type="password" name="password" class="form-control mt-2" placeholder="Password" aria-label="password" minlength="8" maxlength="20" autocomplete="off" required />
 						<button type="submit" class="btn btn-primary w-100 mt-2">Login</button>
 						<p class="text-center mb-2 mt-2">Or with</p>
 						<div class="text-center">	
-							<button type="submit" class="btn btn-primary mt-2"><i class="fab fa-facebook-square"></i> <span class="font-weight-bold">Facebook</span></button>
-							<button type="submit" class="btn btn-info mt-2"><i class="fab fa-twitter-square"></i> <span class="font-weight-bold">Twitter</span></button>
+							<button type="submit" class="btn btn-primary mt-2">
+								<i class="fab fa-facebook-square"></i> 
+								<span class="font-weight-bold">Facebook</span>
+							</button>
+							<button type="submit" class="btn btn-info mt-2">
+								<i class="fab fa-twitter-square"></i> 
+								<span class="font-weight-bold">Twitter</span>
+							</button>
 						</div>
 						<p class="mt-3 mb-1 text-center">Dont have a account ? <a href="#" class="text-decoration-none">Register</a></p>
 					</form>

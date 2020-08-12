@@ -19,22 +19,22 @@
 					<form>
 						<div class="row">
 							<div class="col">
-								<input type="text" name="name" class="form-control" placeholder="Name" aria-label="username" minlength="3" maxlength="20" required>
+								<input type="text" name="name" class="form-control" placeholder="Name" aria-label="username" minlength="3" maxlength="20" required />
 							</div>
 							<div class="col">
-								<input type="email" name="email" class="form-control" placeholder="Email" aria-label="email" minlength="3" maxlength="20" required>
+								<input type="email" name="email" class="form-control" placeholder="Email" aria-label="email" minlength="3" maxlength="20" required />
 							</div>
 						</div>
 						<div class="row mt-2">
 							<div class="col">
-								<input type="password" name="password" class="form-control" placeholder="Password" aria-label="password" minlength="8" maxlength="20" autocomplete="off" required>
+								<input type="password" name="password" class="form-control" placeholder="Password" aria-label="password" minlength="8" maxlength="20" autocomplete="off" required />
 							</div>
 							<div class="col">
-								<input type="password" name="password-confirmed" class="form-control" placeholder="Verified Password" aria-label="password-confirmed" minlength="8" maxlength="20" autocomplete="off" required>
+								<input type="password" name="password-confirmed" class="form-control" placeholder="Verified Password" aria-label="password-confirmed" minlength="8" maxlength="20" autocomplete="off" required />
 							</div>
 						</div>
 						<div class="form-group mt-2">
-							<input type="date" name="born" class="form-control" aria-label="born" required>
+							<input type="date" name="born" class="form-control" aria-label="born" required />
 						</div>
 						<div class="form-group mt-2">
 							<select class="form-select" aria-label="gender">
@@ -44,7 +44,7 @@
 							</select>
 						</div>
 						<div class="form-group mt-2">
-							<input type="text" name="location" class="form-control" placeholder="Location" aria-label="location" minlength="3" maxlength="50" required>
+							<input type="text" name="location" class="form-control" placeholder="Location" aria-label="location" minlength="3" maxlength="50" required />
 						</div>
 						<button type="submit" class="btn btn-primary w-100 mt-2">Register</button>
 						<p class="mt-3 mb-1 text-center">Have a account ? <a href="#" class="text-decoration-none">Login</a></p>

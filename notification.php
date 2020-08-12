@@ -26,7 +26,7 @@
     <div id="app">
     <?php include './template/nav.php';?>
     <!-- list profile right click -->
-    <div class="dropdown-menu mt-3 shadow border-0 listnav position-fixed" aria-labelledby="dropdown_right" style="transition: all 0.2s ease 0s;">
+    <div class="dropdown-menu mt-3 shadow border-0 listnav position-fixed transition-02s" aria-labelledby="dropdown_right">
         <li>
             <a class="dropdown-item" href="#">
                 <span class="material-icons">mark_email_read</span>
@@ -47,16 +47,15 @@
         </li>
     </div>
     <div class="pl-3 pr-3 mt-70px">
-        <div class="col-12 col-sm-6 offset-sm-3">
+        <div class="col-12 col-sm-8 offset-sm-2 col-xl-6 offset-xl-3">
             <div class="card bg-white border-0 shadow-sm">
                 <div class="card-header bg-white">
-                    <h5 class="mb-0 font-weight-bold text-dark" style="letter-spacing: 2px;">Notification</h5>
-                    
+                    <h5 class="mb-0 font-weight-bold text-dark lt-space-2px">Notification</h5>
                 </div>
-                <div class="card-body overflow-y-auto default" style="max-height: 29em;">
+                <div class="card-body overflow-y-auto default mh-29em">
                     <div class="row mt-1 mb-1">
                         <div class="col">
-                            <ul class="list-unstyled notification">
+                            <ul class="list-unstyled mb-0 notification">
                                 <?php 
                                 for ($i=0; $i < 100; $i++) {  ?>
                                     <li class="pointer animate__animated animate__backInLeft">
@@ -65,7 +64,9 @@
                                                 <img src="./src/media/process.png" alt="example" class="img-fluid bg-white p-1" />
                                             </div>
                                             <div class="col-10">
-                                                <p class="h5 mb-1 text-dark">System</p>
+                                                <p class="h5 mb-1 text-dark">System 
+                                                    <span class="font-weight-normal float-right fs-12">07:00 12/08/2020</span>
+                                                </p>
                                                 <a class="mb-0 text-decoration-none text-dark fs-13">
                                                     Safina has like your postSafina has like your postSafina has like your post
                                                     Safina has like your postSafina has like your postSafina has like your post

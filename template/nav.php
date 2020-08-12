@@ -37,7 +37,7 @@
                         <li class="pt-1">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="img-fluid rounded-circle">
+                                    <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="img-fluid rounded-circle"/>
                                 </div>
                                 <div class="col-9">
                                     <a href="/ferdiansyah" class="text-decoration-none text-dark">Ferdiansyah invite you to be friends</a>
@@ -51,7 +51,7 @@
                         <li class="pt-1">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="img-fluid rounded-circle">
+                                    <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="img-fluid rounded-circle"/>
                                 </div>
                                 <div class="col-9">
                                     <a href="/ferdiansyah" class="text-decoration-none text-dark">Ferdiansyah invite you to be friends</a>
@@ -65,16 +65,20 @@
                     </ul>
                 </div>
             </div>
-        <a href="./chat" name="a" class="nav-link d-none d-xl-inline-block pb-0 text-center"><span class="material-icons text-primary">chat</span></a>
-        <a href="./notification" name="a" class="nav-link d-none d-xl-inline-block pb-0 text-center"><span class="material-icons text-primary">notifications_none</span></a>
+            <a href="./chat" name="a" class="nav-link d-none d-xl-inline-block pb-0 text-center">
+                <span class="material-icons text-primary">chat</span>
+            </a>
+            <a href="./notification" name="a" class="nav-link d-none d-xl-inline-block pb-0 text-center">
+                <span class="material-icons text-primary">notifications_none</span>
+            </a>
         </div>
     </div>
     <div class="col-4 float-left d-none d-md-none d-xl-block text-right">
-        <div class="dropdown open">
+        <div class="dropdown dropdown-nav-right open">
             <a href="#" class="dropdown-toggle text-decoration-none text-dark" id="dropdown_menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle" style="width: 50px;max-height: 38px;"> Ferdiansyah
+                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle"/> Ferdiansyah
             </a>
-            <div class="dropdown-menu mt-3 shadow border-0" aria-labelledby="dropdown_menu" style="margin-left: 63%;">
+            <div class="dropdown-menu mt-3 shadow border-0" aria-labelledby="dropdown_menu">
                 <a class="dropdown-item" href="./view-profile"><i class="fas fa-user mr-3"></i> Profile</a>
                 <a class="dropdown-item" href="#"><i class="fas fa-cog mr-3"></i> Setting</a>
                 <a class="dropdown-item" href="#" onclick="javascript:confirm('Do you want exit from application ?')"><i class="fas fa-sign-out-alt mr-3"></i> Logout</a>
@@ -82,27 +86,65 @@
         </div>
     </div>
 </nav>
-<div class="fixed-top bg-white shadow d-block d-xl-none">
+<div class="fixed-top bg-white shadow-sm d-block d-xl-none">
     <div class="row text-center">
-        <a href="/" class="nav-link fs-25 col active"><i class="far fa-newspaper text-primary"></i></a>
-        <a href="#" class="nav-link fs-25 col"><i class="far fa-comment-alt text-primary"></i></a>
-        <a href="#" class="nav-link fs-25 col"><i class="far fa-bell text-primary"></i></a>
-        <a href="#" class="nav-link fs-25 col" id="sidebar"><i class="fas fa-bars text-primary"></i></a>
+        <a href="./" class="nav-link fs-20 col active"><i class="far fa-newspaper text-primary"></i></a>
+        <a href="./chat.php" class="nav-link fs-20 col"><i class="far fa-comment-alt text-primary"></i></a>
+        <a href="./notification.php" class="nav-link fs-20 col"><i class="far fa-bell text-primary"></i></a>
+        <a href="#" class="nav-link fs-20 col" id="sidebar"><i class="fas fa-bars text-primary"></i></a>
     </div>
 </div>
 <!-- sidebar-menu -->
 <div class="opacity-sidebar"></div>
 <div class="sidebar-menu bg-white">
-    <div class="col-12 p-1">
-        <a href="#" class="nav-link text-dark col-6 float-left sidebar-close"><i class="fas fa-arrow-left"></i> Back</a>
-        <a href="#" class="nav-link text-dark col-6 float-left text-right font-weight-bold" style="cursor: text">Menu</a>
-        <div class="dropdown-divider w-100"></div>
-        <a href="#" class="nav-link text-dark">
-            <img src="./src/media/user.png" alt="profile" style="max-width:50px;max-height: 50px;" />
-            <span class="font-weight-normal">Ferdiansyah</span>
+    <div class="col-12 h-100 p-0">
+        <a href="#" class="nav-link text-dark col-6 float-left sidebar-close">
+            <i class="fas fa-arrow-left"></i> Back
         </a>
-        <a href="#" class="nav-link text-dark">
-            <i class="fas fa-user-friends"></i>
-            Friends</a>
+        <a href="#" class="nav-link text-dark col-6 float-left text-right font-weight-bold cursor-text">Menu</a>
+        <div class="dropdown-divider w-100 mb-0"></div>
+        <div class="position-sticky overflow-y-auto default menu-overflow">
+            <ul class="list-unstyled ul-menu-mobile">
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="nav-link text-dark dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+                            <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="profile" class="rounded-circle sidebar-profile" />
+                            <span class="font-weight-normal">Ferdiansyah</span>
+                        </a>
+                        <ul class="dropdown-menu shadow border-0 sidebar-profile-list" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <?php 
+                for ($i=2; $i < 22; $i++) { ?>
+                <li>
+                    <a href="#multiCollapseExample<?= $i;?>" class="nav-link text-dark" data-toggle="collapse" href="#multiCollapseExample<?= $i;?>" role="button" aria-expanded="false" aria-controls="multiCollapseExample<?= $i;?>">
+                        <span class="material-icons fs-30">people_alt</span>
+                        <span class="position-absolute ml-14px mt-1">Pages</span>
+                    </a>
+                    <div class="collapse multi-collapse shadow-sm" id="multiCollapseExample<?= $i;?>">
+                        <ul class="list-unstyled menu-mobile-ul">
+                            <li>
+                                <a href="" class="text-dark nav-link">
+                                    <span class="material-icons fs-30">people_alt</span>
+                                    <span class="text-decoration-none position-absolute ml-14px mt-1">Pages 1</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="text-dark nav-link">
+                                    <span class="material-icons fs-30">people_alt</span>
+                                    <span class="text-decoration-none position-absolute ml-14px mt-1">Pages 1</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <?php }
+                ?>
+            </ul>
+        </div>
     </div>
 </div>

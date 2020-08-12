@@ -18,7 +18,7 @@
 					<h5 class="text-center font-weight-bold mb-4">Forget Password</h5>
 					<form>
 						<div class="mt-2">
-							<input type="email" name="email" class="form-control" placeholder="Email" aria-label="email" minlength="3" maxlength="20" required>
+							<input type="email" name="email" class="form-control" placeholder="Email" aria-label="email" minlength="3" maxlength="20" required />
 						</div>
 						<button type="submit" class="btn btn-primary w-100 mt-2">Submit</button>
 					</form>

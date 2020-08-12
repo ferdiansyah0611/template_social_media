@@ -42,15 +42,43 @@ body::-webkit-scrollbar-thumb,
   z-index: -11;
   transition: 1s all;
 }
-#add-post{
-  font-size: 30px;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
+/*nav*/
+img.sidebar-profile{
+  max-width:50px;
+  max-height: 50px;
+}
+ul.sidebar-profile-list{
+  margin-left: 57px;margin-top: -7px;width: 240px;
+}
+.dropdown-nav-right > a.dropdown-toggle > img.rounded-circle{
+  width: 50px;
+  max-height: 38px;
+}
+.dropdown-nav-right > div.dropdown-menu{
+  margin-left: 63%;
+}
+ul.menu-mobile-ul > li > a > span.material-icons{
+  "margin-left: 16px;
 }
 .nav-search{
   font-size: 14px;
 }
+/*sideleft*/
+div.sideleft > div.position-sticky{
+  max-height: 37em;
+  height: 37em;
+}
+/*sideright*/
+div.sideright > div.position-sticky{
+  max-height: 37em;
+  height: 37em;
+  margin-left: -14px;
+}
+div.sideright-el-2 > div.position-sticky{
+  max-height: 37em;
+  height: 37em;
+}
+
 .avatar-post{
   height: 60px;
   max-height: 60px;
@@ -84,6 +112,9 @@ ul.friend-request > li > .row > .col-9 > a.text-decoration-none{
   height: 80px;
   max-height: 80px;
 }
+.ul-menu-mobile a:hover{
+  background-color: #0e0e0e0f;
+}
 .dropdown-menu[aria-labelledby="friends_request"]{
   margin-left: 39% !important;
   width: 300px;
@@ -116,17 +147,38 @@ ul.friend-request > li > .row > .col-9 > a.text-decoration-none{
 .mt-70px{
   margin-top: 70px;
 }
+.ml-14px{
+  margin-left: 14px;
+}
 .ml-5em{
   margin-left: 5em !important;
+}
+.mh-29em{
+  max-height: 29em;
+}
+.right-0{
+  right: 0;
+}
+.top-0{
+  top: 0;
 }
 .fixed-bottom{
   z-index: 9999999999;
 }
+.lt-space-2px{
+  letter-spacing: 2px;
+}
 .pointer{
   cursor: pointer;
 }
+.cursor-text{
+  cursor: text;
+}
 .overflow-y-auto{
   overflow-y: auto;
+}
+.transition-02s{
+  transition: all 0.2s ease 0s;
 }
 @media screen and (min-width: 0px) and (max-width: 576px){
   .position-xs-absolute{

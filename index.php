@@ -83,21 +83,21 @@
                     <div class="card border-0 shadow-sm mt-2">
                         <div class="card-body">
                             <div class="story pb-2 bg-white">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
-                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story">
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
+                                <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="image" class="col-3 float-left" data-toggle="modal" data-target="#modal-story" />
                             </div>
                             <div class="next-story rounded-circle shadow-sm">
                                 <span class="material-icons p-1">chevron_right</span>
@@ -116,14 +116,14 @@
                                 </div>
                                 <textarea class="form-control mt-2" placeholder="What do you think now ?" rows="4"></textarea>
                                 <div class="form-file form-file-sm mt-2">
-                                    <input type="file" class="form-file-input" id="image_upload_post" accept=".jpg,.png,.jpeg" multiple>
+                                    <input type="file" class="form-file-input" id="image_upload_post" accept=".jpg,.png,.jpeg" multiple/>
                                     <label class="form-file-label" for="image_upload_post">
                                         <span class="form-file-text">Choose file image...</span>
                                         <span class="form-file-button">Browse</span>
                                     </label>
                                 </div>
                                 <div class="form-file form-file-sm mt-2">
-                                    <input type="file" class="form-file-input" id="video_upload_post" accept=".mp4" multiple>
+                                    <input type="file" class="form-file-input" id="video_upload_post" accept=".mp4" multiple/>
                                     <label class="form-file-label" for="video_upload_post">
                                         <span class="form-file-text">Choose file video...</span>
                                         <span class="form-file-button">Browse</span>
@@ -141,7 +141,9 @@
                                     <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" class="rounded-circle avatar-post" alt="example" width="100%" />
                                 </div>
                                 <div class="col-5">
-                                    <p class="text-truncate mb-0"><a href="./ferdiansyah" class="text-decoration-none text-dark">Ferdiansyah</a></p>
+                                    <p class="text-truncate mb-0">
+                                        <a href="./ferdiansyah" class="text-decoration-none text-dark">Ferdiansyah</a>
+                                    </p>
                                     <span class="p-0 text-truncate text-lowercase text-dark font-weight-light fs-13">12 Jam yg lalu</span>
                                 </div>
                                 <div class="col-5">
@@ -205,10 +207,12 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-2 text-md-center">
-                                    <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" class="rounded-circle avatar-post" alt="example" width="100%" />
+                                    <img src="./src/media/steve-halama-T9A31lqrXnU-unsplash.jpg" alt="example" class="rounded-circle avatar-post" width="100%" />
                                 </div>
                                 <div class="col-5">
-                                    <p class="text-truncate mb-0"><a href="./ferdiansyah" class="text-decoration-none text-dark">Ferdiansyah</a></p>
+                                    <p class="text-truncate mb-0">
+                                        <a href="./ferdiansyah" class="text-decoration-none text-dark">Ferdiansyah</a>
+                                    </p>
                                     <span class="p-0 text-truncate text-lowercase text-dark font-weight-light fs-13">12 Jam yg lalu</span>
                                 </div>
                                 <div class="col-5">

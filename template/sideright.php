@@ -1,5 +1,5 @@
-<div class="position-fixed col-2">
-    <div class="position-sticky scroll animate__animated animate__backInRight" style="max-height: 37em;height: 37em;margin-left: -14px;">
+<div class="position-fixed col-2 sideright">
+    <div class="position-sticky scroll animate__animated animate__backInRight">
         <h6 class="p-3 text-dark">
             <i class="fas fa-user pr-3"></i> My Pages
         </h6>
@@ -10,8 +10,8 @@
         <?php } ?>
     </div>
 </div>
-<div class="position-fixed col-1" style="right: 0;">
-    <div class="position-sticky scroll animate__animated animate__backInRight" style="max-height: 37em;height: 37em;">
+<div class="position-fixed col-1 sideright-el-2 right-0">
+    <div class="position-sticky scroll animate__animated animate__backInRight">
         <ul class="list-unstyled list-online">
             <?php
             for ($i=0; $i < 20; $i++) { ?>
