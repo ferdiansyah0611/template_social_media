@@ -28,6 +28,9 @@
     	.maxH-28em{
     		max-height: 25em;
     	}
+    	.maxH-35em{
+    		max-height: 35em;
+    	}
     	.ml-min-160px{
     		margin-left: -160px;
     	}
@@ -210,7 +213,7 @@
 		        					</div>
 		        				</div>
 	        				</div>
-	        				<div class="position-sticky default overflow-y-auto col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3 float-left bg-white maxH-28em d-sm-block">
+	        				<div class="position-sticky default overflow-y-auto col-12 col-sm-3 col-xl-3 col-lg-3 col-md-3 float-left bg-white maxH-35em d-sm-block">
 				        		<ul class="nav nav-tabs d-block border-0 p-0" id="tabChat" role="tablist">
 			  						<li class="nav-item" role="presentation">
 			  						  	<a class="nav-link text-truncate text-dark active" id="friends-1-tab" data-toggle="tab" href="#friends-1" role="tab" aria-controls="friends-1" aria-selected="true">

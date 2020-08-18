@@ -151,7 +151,7 @@
 										<li class="nav-item col text-center" role="presentation">
 										  	<a class="nav-link text-dark" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
 										</li>
-										<li class="nav-item col text-center" role="presentation">
+										<li class="nav-item col text-center offset-5 offset-sm-0" role="presentation">
 										  	<a class="nav-link text-dark" id="friend-tab" data-toggle="tab" href="#friend" role="tab" aria-controls="friend" aria-selected="false">Friend</a>
 										</li>
 									</ul>
@@ -168,8 +168,8 @@
 								                            <span class="p-0 text-truncate text-lowercase text-dark font-weight-light fs-13">12 Jam yg lalu</span>
 								                        </div>
 								                        <div class="col-5">
-								                            <div class="dropdown dropleft float-right">
-								                                <a class="btn btn-light rounded dropdown-toggle before-none" href="#" name="dropdownMenuLink3" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								                            <div class="dropdown dropleft float-right position-static">
+								                                <a class="btn btn-light rounded dropdown-toggle before-none" href="#" id="dropdownMenuLink3" data-toggle="dropdown" aria-expanded="false">
 								                                	<i class="fas fa-ellipsis-v"></i>
 								                                </a>
 								                                <div class="dropdown-menu dropdown-menu-right shadow border-0" aria-labelledby="dropdownMenuLink3">
@@ -235,11 +235,11 @@
 								                            <span class="p-0 text-truncate text-lowercase font-weight-light fs-13">12 Jam yg lalu</span>
 								                        </div>
 								                        <div class="col-5">
-								                            <div class="dropdown dropleft float-right">
-								                                <a class="btn btn-light rounded dropdown-toggle before-none" href="#" name="dropdownMenuLink3" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								                            <div class="dropdown dropleft float-right position-static">
+								                                <span class="btn btn-light rounded dropdown-toggle before-none" id="dropdownMenuLink4" data-toggle="dropdown" aria-expanded="false">
 								                                	<i class="fas fa-ellipsis-v"></i>
-								                                </a>
-								                                <div class="dropdown-menu dropdown-menu-right shadow border-0" aria-labelledby="dropdownMenuLink3">
+								                                </span>
+								                                <div class="dropdown-menu dropdown-menu-right shadow border-0" aria-labelledby="dropdownMenuLink4">
 								                                    <a class="dropdown-item" href="#">
 								                                    	<span class="material-icons">save</span> 
 								                                    	<span class="position-absolute ml-1">Save link</span>
@@ -605,12 +605,12 @@
   			  	  	</div>
   			  	  	<div class="modal-footer border-0">
   			  	  		<div class="row">
-  			  	  			<div class="col-10">
+  			  	  			<div class="col-12 col-sm-10">
   			  	  				<form>
 	  			  	  				<textarea class="form-control mb-1 mh-300px" rows="3" placeholder="Type here to comment"></textarea>
 	  			  	  			</form>
   			  	  			</div>
-  			  	  			<div class="col-2">
+  			  	  			<div class="col-12 col-sm-2">
   			  	  				<button class="btn btn-primary w-100 h-100">
   			  	  					<span class="material-icons fs-30">send</span>
   			  	  				</button>

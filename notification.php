@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <style type="text/css">
-        .read{
-            background-color: #00000014;
-        }
         .notification li:hover{
             background-color: #00000014;
             transition: 0.3s all;
@@ -81,13 +78,13 @@
                 </div>
                 <div class="card-footer bg-white">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-6 col-sm-4">
                             <button type="button" class="w-100 fs-13 btn btn-primary read-notification-all">Read all</button>
                         </div>
-                        <div class="col">
+                        <div class="col-6 col-sm-4">
                             <button type="button" class="w-100 fs-13 btn btn-danger remove-notification-all">Remove all</button>
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-sm-4 mt-2 mt-sm-0">
                             <button type="button" class="w-100 fs-13 btn btn-light archive-notification-all">Archive all</button>
                         </div>
                     </div>

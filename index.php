@@ -272,6 +272,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 text-center mt-2">
+                        <button type="button" class="text-decoration-none text-dark font-weight-bold btn btn-light">Click to load 15 more data</button>
+                    </div>
                     <footer class="card bg-white mt-2 border-0 shadow-sm animate__animated animate__fadeInUp">
                         <div class="card-body">
                             <div class="row">

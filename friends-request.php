@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <style type="text/css">
-        .read{
-            background-color: #00000014;
-        }
     </style>
 </head>
 <body>

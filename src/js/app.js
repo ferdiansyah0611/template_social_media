@@ -5,30 +5,38 @@ var sidebarClose = document.querySelector('.sidebar-close')
 
 if (sidebar) {
     sidebar.addEventListener('click', (event) => {
-        // styling
+
         L('.sidebar-menu').addClass('shadow')
-        ShowSidebar.style.opacity = 1
-        ShowSidebar.style.marginLeft = 'calc(100% - 300px)'
-        ShowSidebar.style.zIndex = 999999
-        opacitySidebar.style.marginLeft = 'calc(100% - 100%)'
-        opacitySidebar.style.zIndex = 99999
-        opacitySidebar.style.opacity = 0.5
+        if(document.querySelector('#sidebar i').classList.contains('fa-bars')){
+            L('#sidebar i').removeClass('fa-bars')
+            L('#sidebar i').addClass('fa-arrow-right')
+            // styling
+            ShowSidebar.style.opacity = 1
+            ShowSidebar.style.marginLeft = 'calc(100% - 300px)'
+            ShowSidebar.style.zIndex = 999999
+            ShowSidebar.style.visibility = 'visible'
+            document.querySelector('.sidebar-menu div').style.opacity = 1
+            opacitySidebar.style.marginLeft = 'calc(100% - 100%)'
+            opacitySidebar.style.zIndex = 99999
+            opacitySidebar.style.opacity = 0.5
+            opacitySidebar.style.display = 'block'
+        }
+        else
+            if(document.querySelector('#sidebar i').classList.contains('fa-arrow-right')){
+                L('#sidebar i').removeClass('fa-arrow-right')
+                L('#sidebar i').addClass('fa-bars')
+                L('.sidebar-menu').removeClass('shadow')
+                ShowSidebar.style.marginLeft = '100%'
+                ShowSidebar.style.zIndex = -11
+                ShowSidebar.style.visibility = 'hidden'
+                opacitySidebar.style.marginLeft = '100%'
+                opacitySidebar.style.zIndex = -10
+                opacitySidebar.style.display = 'none'
+            }
     })
 }
 
 class lava {
-    async actionCloseSidebar() {
-        if (sidebarClose) {
-            sidebarClose.addEventListener('click', (event) => {
-                // styling
-                L('.sidebar-menu').removeClass('shadow')
-                ShowSidebar.style.marginLeft = '100%'
-                ShowSidebar.style.zIndex = -11
-                opacitySidebar.style.marginLeft = '100%'
-                opacitySidebar.style.zIndex = -10
-            })
-        }
-    }
     async stickyScroll($data = {}) {
         document.querySelectorAll($data.query).forEach((val, key) => {
             val.addEventListener('mousemove', function(e) {
@@ -313,14 +321,10 @@ class lava {
         })
     }
     indexPage($data){
-            document.querySelector('.story').addEventListener('mousewheel', e => {
-                console.log(e)
-            })
         var imgWidth = 154.5
         var arr = []
         L('.next-story').on('click', e => {
             var story = document.querySelector('.story').scrollLeft += imgWidth
-            console.log(story)
         })
         L('.previous-story').on('click', e => {
             var story = document.querySelector('.story').scrollLeft -= imgWidth
@@ -339,8 +343,20 @@ class lava {
 }
 window.lavaInstance = new lava();
 /*required*/
-lavaInstance.actionCloseSidebar()
 lavaInstance.stickyScroll({
     query: '.position-sticky.scroll'
 })
-L('.menu-overflow').attr('style', `height: auto;max-height: ${window.innerHeight}px`)
+L('.menu-overflow').attr('style', `height: auto;max-height: calc(${window.innerHeight}px - 46px);`)
+L('.form-search').on('submit', e => {
+    e.preventDefault()
+    L('.search-data').removeClass('d-none')
+    L('.search-data').addClass('d-block')
+    L('.opacity-search-none').addClass('opacity-search')
+    L('.opacity-search-none').removeClass('opacity-search-none')
+})
+L('.close-search').on('click', e => {
+    L('.search-data').removeClass('d-block')
+    L('.search-data').addClass('d-none')
+    L('.opacity-search').addClass('opacity-search-none')
+    L('.opacity-search').removeClass('opacity-search')
+})
